@@ -1,0 +1,8 @@
+*.pt
+*.jpg
+Proj2_Yolo/datasets
+Proj2_Yolo/runs
+cv_env/
+runs/*
+Proj2_Yolo/Buoy-Detection-1
+Proj2_Yolo/Buoy_Detection_Results
