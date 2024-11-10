@@ -1,0 +1,7 @@
+*.pt
+*.jpg
+cv_env/
+Datasets/
+runs/
+Buoy-Detection-1
+Buoy_Detection_Results
