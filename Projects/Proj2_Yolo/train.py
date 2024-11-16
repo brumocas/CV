@@ -14,10 +14,11 @@ model = YOLO('yolo11n.pt')  # Note: Ensure this model exists in your directory
 # with additional configuration for TensorBoard and metric tracking
 model.train(
     data='Buoy-Detection-1/data.yaml',  # Path to the dataset YAML file
-    epochs=3,                            # Number of training epochs
+    epochs=20,                            # Number of training epochs
     save=True,                           # Save model after training
     project='Buoy_Detection_Results',     # Folder to save results
     name='YOLOv11n_buoy',                 # Run name
     exist_ok=True,                        # Overwrite if exists
-    verbose=True                          # Detailed output
+    verbose=True,                          # Detailed output
+    batch=4
 )

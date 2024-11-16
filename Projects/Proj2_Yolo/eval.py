@@ -9,8 +9,9 @@ metrics = model.val(data='Buoy-Detection-1/data.yaml',  # Path to the dataset YA
                     imgsz=640,                       # Image size for evaluation (same as training size)
                     conf=0.001,                      # Confidence threshold (you can adjust this)
                     iou=0.5,                         # Intersection over Union threshold
+                    split="test",                    # Test dataset for evaluation
                     save_txt=True,                   # Optionally save the predictions to text files
-                    save_json=True)                  # Optionally save predictions to JSON for later analysis
+                    save_json=True,)                  # Optionally save predictions to JSON for later analysis
 
 # Access different mAP metrics
 map50_95 = metrics.box.map  # mAP@0.5:0.95
