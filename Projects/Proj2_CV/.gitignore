@@ -1,2 +1,3 @@
 /Buoy-Detection-1
-*.pt
+*.pth
+/runs
