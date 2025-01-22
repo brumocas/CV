@@ -1,1 +1,1 @@
-Pratical classes from CV curricular unit
+Practical classes from CV curricular unit
