@@ -2,7 +2,7 @@
 
 Welcome to the repository for the **Computer Vision (CV)** curricular unit! This repository contains materials, code, and resources to help you learn and practice computer vision concepts.
 
----
+
 
 ## **Repository Structure**
 
@@ -15,7 +15,7 @@ CV/
 ├── README.md              # Overview of the Repository
 ```
 
----
+
 
 ## **Getting Started**
 
@@ -28,7 +28,7 @@ CV/
 2. **Explore the Content**:
    - Check the `TP/` folder for course materials.
    - Experiment with `projects/` to apply your knowledge.
----
+
 
 ## **Topics Covered**
 
@@ -39,7 +39,6 @@ CV/
 - Deep Learning for CV (CNNs, transfer learning)
 - 3D Vision (depth estimation, point clouds)
 
----
 
 ## **Resources**
 
@@ -55,13 +54,13 @@ CV/
   - [COCO](https://cocodataset.org/)
   - [ImageNet](https://www.image-net.org/)
 
----
+
 
 ## **Contributing**
 
 If you'd like to contribute to this repository, feel free to open a pull request or issue. Contributions are welcome!
 
----
+
 
 ## **License**
 
